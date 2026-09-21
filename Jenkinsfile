@@ -21,6 +21,7 @@ pipeline{
         echo 'Deploying the project'
       }
     }
+  }
     post{
       success{
         echo 'Pipeline completed successfully'
@@ -29,5 +30,5 @@ pipeline{
         echo 'Pipeline failed'
       }
     }
-  }
+  
 }
